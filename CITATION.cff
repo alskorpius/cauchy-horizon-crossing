@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "cauchy-horizon-crossing: code and data for the cost of crossing the Cauchy horizon and the traversable window"
+abstract: >-
+  Reproduction package for the note "Crossing the inner horizon of a regular
+  black hole: the cost of the Cauchy horizon and the passable window". Contains
+  the tidal-tensor integration, the shell-impulse thresholds, the convergence
+  study in the number of shells, the Reissner-Nordstrom control run, and the
+  figure of the window.
+type: software
+authors:
+  - given-names: Oleh
+    family-names: Popenkov
+    email: oleh.popenkov@gmail.com
+    affiliation: "Independent researcher, Kelowna, BC, Canada"
+    orcid: "https://orcid.org/0009-0008-9894-2982"
+version: 1.0.0
+date-released: "2026-09-14"
+license: MIT
+repository-code: "https://github.com/alskorpius/cauchy-horizon-crossing"
+keywords:
+  - general relativity
+  - Cauchy horizon
+  - inner horizon
+  - mass inflation
+  - tidal forces
+  - regular black holes

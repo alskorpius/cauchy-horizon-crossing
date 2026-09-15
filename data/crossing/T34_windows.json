@@ -1,0 +1,202 @@
+{
+ "RN": {
+  "10 Msun | molecular, 1 m body": [
+   "background",
+   null
+  ],
+  "10 Msun | molecular, 10 km body": [
+   "background",
+   null
+  ],
+  "10 Msun | nuclear, 1 fm": [
+   "window",
+   0.001887474067708845
+  ],
+  "10 Msun | Planck": [
+   "window",
+   0.007938538856529684
+  ],
+  "1e6 Msun | molecular, 1 m body": [
+   "window",
+   68.93073829337862
+  ],
+  "1e6 Msun | molecular, 10 km body": [
+   "window",
+   35.72528861518281
+  ],
+  "1e6 Msun | nuclear, 1 fm": [
+   "window",
+   230.14193216514983
+  ],
+  "1e6 Msun | Planck": [
+   "window",
+   881.0475939247384
+  ],
+  "1e9 Msun | molecular, 1 m body": [
+   "window",
+   93767.98456585997
+  ],
+  "1e9 Msun | molecular, 10 km body": [
+   "window",
+   60651.31292006384
+  ],
+  "1e9 Msun | nuclear, 1 fm": [
+   "window",
+   254978.64660138494
+  ],
+  "1e9 Msun | Planck": [
+   "window",
+   932810.0400433047
+  ]
+ },
+ "scen_-1e-03": {
+  "10 Msun | molecular, 1 m body": [
+   "window",
+   0.00463434710118204
+  ],
+  "10 Msun | molecular, 10 km body": [
+   "background",
+   null
+  ],
+  "10 Msun | nuclear, 1 fm": [
+   "window",
+   2.282528999169078
+  ],
+  "10 Msun | Planck": [
+   "window",
+   14.173798742802619
+  ],
+  "1e6 Msun | molecular, 1 m body": [
+   "window",
+   64069.02231322172
+  ],
+  "1e6 Msun | molecular, 10 km body": [
+   "window",
+   1814.8217464021805
+  ],
+  "1e6 Msun | nuclear, 1 fm": [
+   "window",
+   284954.05779583135
+  ],
+  "1e6 Msun | Planck": [
+   "never",
+   null
+  ],
+  "1e9 Msun | molecular, 1 m body": [
+   "window",
+   98152529.94747405
+  ],
+  "1e9 Msun | molecular, 10 km body": [
+   "window",
+   52707853.101804264
+  ],
+  "1e9 Msun | nuclear, 1 fm": [
+   "window",
+   318974752.5234782
+  ],
+  "1e9 Msun | Planck": [
+   "never",
+   null
+  ]
+ },
+ "scen_-1e-08": {
+  "10 Msun | molecular, 1 m body": [
+   "window",
+   0.009996870792005187
+  ],
+  "10 Msun | molecular, 10 km body": [
+   "background",
+   null
+  ],
+  "10 Msun | nuclear, 1 fm": [
+   "window",
+   142540.5955651503
+  ],
+  "10 Msun | Planck": [
+   "never",
+   null
+  ],
+  "1e6 Msun | molecular, 1 m body": [
+   "window",
+   1026968.0030096968
+  ],
+  "1e6 Msun | molecular, 10 km body": [
+   "window",
+   3115.0945807756866
+  ],
+  "1e6 Msun | nuclear, 1 fm": [
+   "window",
+   19924555126.225487
+  ],
+  "1e6 Msun | Planck": [
+   "never",
+   null
+  ],
+  "1e9 Msun | molecular, 1 m body": [
+   "window",
+   105783211400.3997
+  ],
+  "1e9 Msun | molecular, 10 km body": [
+   "window",
+   252496408.0127564
+  ],
+  "1e9 Msun | nuclear, 1 fm": [
+   "window",
+   23326624570005.363
+  ],
+  "1e9 Msun | Planck": [
+   "never",
+   null
+  ]
+ },
+ "scen_+0e+00": {
+  "10 Msun | molecular, 1 m body": [
+   "window",
+   0.009996869398270023
+  ],
+  "10 Msun | molecular, 10 km body": [
+   "background",
+   null
+  ],
+  "10 Msun | nuclear, 1 fm": [
+   "never",
+   null
+  ],
+  "10 Msun | Planck": [
+   "never",
+   null
+  ],
+  "1e6 Msun | molecular, 1 m body": [
+   "window",
+   1026926.8344038032
+  ],
+  "1e6 Msun | molecular, 10 km body": [
+   "window",
+   3115.095095282646
+  ],
+  "1e6 Msun | nuclear, 1 fm": [
+   "never",
+   null
+  ],
+  "1e6 Msun | Planck": [
+   "never",
+   null
+  ],
+  "1e9 Msun | molecular, 1 m body": [
+   "window",
+   101479982905.69926
+  ],
+  "1e9 Msun | molecular, 10 km body": [
+   "window",
+   252496003.65387207
+  ],
+  "1e9 Msun | nuclear, 1 fm": [
+   "never",
+   null
+  ],
+  "1e9 Msun | Planck": [
+   "never",
+   null
+  ]
+ }
+}

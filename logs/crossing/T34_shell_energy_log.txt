@@ -1,0 +1,9 @@
+dm_plus = 1e-05, tail amp = 1e-04: v_e = v0: [M] = 4.328e-06, I_sh = 4.240e-05, Delta_perp = -9.249, xi_perp = 38.93; v_e = 2 v0: I_sh = 3.040e-03; v_e = 1e4: I_sh = 3.254e+01, 1/rho = 2.246e+01
+dm_plus = 1e-05, tail amp = 1e-03: v_e = v0: [M] = 4.327e-06, I_sh = 4.255e-05, Delta_perp = -9.502, xi_perp = 41.31; v_e = 2 v0: I_sh = 3.070e-03; v_e = 1e4: I_sh = 3.288e+01, 1/rho = 2.268e+01
+dm_plus = 1e-05, tail amp = 1e-02: v_e = v0: [M] = 4.311e-06, I_sh = 4.416e-05, Delta_perp = -11.130, xi_perp = 59.36; v_e = 2 v0: I_sh = 3.339e-03; v_e = 1e4: I_sh = 3.637e+01, 1/rho = 2.499e+01
+dm_plus = 1e-04, tail amp = 1e-04: v_e = v0: [M] = 4.328e-05, I_sh = 4.240e-04, Delta_perp = -7.101, xi_perp = 22.77; v_e = 2 v0: I_sh = 3.040e-02; v_e = 1e4: I_sh = 3.254e+02, 1/rho = 2.156e+02
+dm_plus = 1e-04, tail amp = 1e-03: v_e = v0: [M] = 4.327e-05, I_sh = 4.255e-04, Delta_perp = -7.158, xi_perp = 23.11; v_e = 2 v0: I_sh = 3.070e-02; v_e = 1e4: I_sh = 3.288e+02, 1/rho = 2.178e+02
+dm_plus = 1e-04, tail amp = 1e-02: v_e = v0: [M] = 4.311e-05, I_sh = 4.416e-04, Delta_perp = -7.866, xi_perp = 27.84; v_e = 2 v0: I_sh = 3.339e-02; v_e = 1e4: I_sh = 3.637e+02, 1/rho = 2.409e+02
+dm_plus = 1e-03, tail amp = 1e-04: v_e = v0: [M] = 4.328e-04, I_sh = 4.240e-03, Delta_perp = -3.992, xi_perp = 8.78; v_e = 2 v0: I_sh = 3.040e-01; v_e = 1e4: I_sh = 3.254e+03, 1/rho = 2.147e+03
+dm_plus = 1e-03, tail amp = 1e-03: v_e = v0: [M] = 4.327e-04, I_sh = 4.255e-03, Delta_perp = -3.993, xi_perp = 8.78; v_e = 2 v0: I_sh = 3.070e-01; v_e = 1e4: I_sh = 3.288e+03, 1/rho = 2.169e+03
+dm_plus = 1e-03, tail amp = 1e-02: v_e = v0: [M] = 4.311e-04, I_sh = 4.416e-03, Delta_perp = -3.998, xi_perp = 8.81; v_e = 2 v0: I_sh = 3.339e-01; v_e = 1e4: I_sh = 3.637e+03, 1/rho = 2.400e+03

@@ -1,0 +1,71 @@
+T35A: multi-shell (continuous outflux) test of the T34 deformation; N in [1, 3, 10, 100, 1000]; cases ['z']
+  [scenario kappa=+0e+00] r0 = 0.676573; residue removed (c0, c1, c2) = [ 1.79841070e-07 -8.49807611e-06  6.56467216e-03]; a = f'''/6 = -2.1687 (T1: -2.158); eps0 = 0.000e+00; |P0 - f_ideal| on |y| < 0.1: 5.7e-06
+
+=== scenario kappa_- = +0e+00: kappa_- = +0.000e+00, v0 = 50.0, tail 1e-3 p = 11, outflux dm_+ = 0.0001 on u in [v0, 4 v0] ===
+  N = 1: u in [50, 50], heaviest weight 1 (u = 50), launch radius R0 = 1.330; table to v = 1e+09; min dR between adjacent rays = +1.00e+00 (no crossing); chain 0.2 s
+    v_e =     1e+05: crossed 1/1 (skipped 0); ln(1/P) = 8.044; ln eps_end = 8.044; ln S_end = -9.199; max ln I = 8.431; Delta_perp = +1.012506, Delta_rad = +0.262861, xi_perp = +3.2191e-03, xi_rad = +0.7398; d ln Q_in/dv = -1.7347e-18, d ln S/dv = -1.7347e-18 (Ori: -1.2000e-04); end: r floor 0.002 reached (inside all 1 shells) [2 s]
+        u =       50: r = 0.678729, ln(1/rho) = +8.044e+00, ln I = +8.431, ln eps -> +8.044, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.937
+        u =       50: r = 0.678729, ln(1/rho) = +8.044e+00, ln I = +8.431, ln eps -> +8.044, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.937
+    v_e =     1e+08: crossed 1/1 (skipped 0); ln(1/P) = 18.41; ln eps_end = 18.41; ln S_end = -9.199; max ln I = 18.8; Delta_perp = +1.012770, Delta_rad = +0.263239, xi_perp = +2.9081e-03, xi_rad = +0.7394; d ln Q_in/dv = -1.6941e-21, d ln S/dv = -1.6941e-21 (Ori: -1.2000e-07); end: r floor 0.002 reached (inside all 1 shells) [2 s]
+        u =       50: r = 0.676641, ln(1/rho) = +1.841e+01, ln I = +18.8, ln eps -> +18.41, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        u =       50: r = 0.676641, ln(1/rho) = +1.841e+01, ln I = +18.8, ln eps -> +18.41, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+  N = 3: u in [50, 200], heaviest weight 0.9779 (u = 50), launch radius R0 = 1.330; table to v = 1e+09; min dR between adjacent rays = +3.52e-08 (no crossing); chain 0.8 s
+    v_e =     1e+05: crossed 3/3 (skipped 0); ln(1/P) = 7.943; ln eps_end = 7.943; ln S_end = -9.199; max ln I = 8.306; Delta_perp = +1.013348, Delta_rad = +0.262867, xi_perp = +3.2532e-03, xi_rad = +0.7398; d ln Q_in/dv = -1.7347e-18, d ln S/dv = +0.0000e+00 (Ori: -1.2000e-04); end: r floor 0.002 reached (inside all 3 shells) [2 s]
+        u =      200: r = 0.678731, ln(1/rho) = +3.259e-02, ln I = -3.02, ln eps -> +0.03259, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.936
+        u =      100: r = 0.678729, ln(1/rho) = +4.201e+00, ln I = +4.606, ln eps -> +4.234, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.936
+        u =       50: r = 0.678109, ln(1/rho) = +3.709e+00, ln I = +8.306, ln eps -> +7.943, Delta_perp so far = +0.01668, xi_perp = +9.829e-01, ln K_in = +2.94
+        u =      200: r = 0.678731, ln(1/rho) = +3.259e-02, ln I = -3.02, ln eps -> +0.03259, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.936
+        u =      100: r = 0.678729, ln(1/rho) = +4.201e+00, ln I = +4.606, ln eps -> +4.234, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.936
+        u =       50: r = 0.678109, ln(1/rho) = +3.709e+00, ln I = +8.306, ln eps -> +7.943, Delta_perp so far = +0.01668, xi_perp = +9.829e-01, ln K_in = +2.94
+    v_e =     1e+08: crossed 3/3 (skipped 0); ln(1/P) = 18.3; ln eps_end = 18.3; ln S_end = -9.199; max ln I = 18.67; Delta_perp = +1.014026, Delta_rad = +0.263239, xi_perp = +2.9081e-03, xi_rad = +0.7394; d ln Q_in/dv = -1.6941e-21, d ln S/dv = -1.6941e-21 (Ori: -1.2000e-07); end: r floor 0.002 reached (inside all 3 shells) [2 s]
+        u =      200: r = 0.676641, ln(1/rho) = +6.966e+00, ln I = +7.355, ln eps -> +6.966, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        u =      100: r = 0.676641, ln(1/rho) = +7.624e+00, ln I = +14.98, ln eps -> +14.59, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        u =       50: r = 0.675767, ln(1/rho) = +3.711e+00, ln I = +18.67, ln eps -> +18.3, Delta_perp so far = +0.01702, xi_perp = +9.826e-01, ln K_in = +2.954
+        u =      200: r = 0.676641, ln(1/rho) = +6.966e+00, ln I = +7.355, ln eps -> +6.966, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        u =      100: r = 0.676641, ln(1/rho) = +7.624e+00, ln I = +14.98, ln eps -> +14.59, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        u =       50: r = 0.675767, ln(1/rho) = +3.711e+00, ln I = +18.67, ln eps -> +18.3, Delta_perp so far = +0.01702, xi_perp = +9.826e-01, ln K_in = +2.954
+  N = 10: u in [50, 200], heaviest weight 0.5714 (u = 50), launch radius R0 = 1.330; table to v = 1e+09; min dR between adjacent rays = +2.19e-10 (no crossing); chain 4.1 s
+    v_e =     1e+05: crossed 10/10 (skipped 0); ln(1/P) = 6.707; ln eps_end = 6.707; ln S_end = -9.202; max ln I = 6.542; Delta_perp = +1.014973, Delta_rad = +0.263286, xi_perp = +4.1246e-03, xi_rad = +0.7393; d ln Q_in/dv = +0.0000e+00, d ln S/dv = -1.7347e-18 (Ori: -1.2000e-04); end: r floor 0.002 reached (inside all 10 shells) [2 s]
+        u =      200: r = 0.678731, ln(1/rho) = +1.394e-03, ln I = -6.188, ln eps -> +0.001394, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.936
+        u =    171.4: r = 0.678730, ln(1/rho) = +7.555e-03, ln I = -4.493, ln eps -> +0.008949, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.936
+        u =      147: r = 0.678730, ln(1/rho) = +4.017e-02, ln I = -2.798, ln eps -> +0.04912, Delta_perp so far = +0.01578, xi_perp = +9.838e-01, ln K_in = +2.936
+        ...
+        u =    68.04: r = 0.674989, ln(1/rho) = +1.561e+00, ln I = +4.346, ln eps -> +4.188, Delta_perp so far = +0.01905, xi_perp = +9.806e-01, ln K_in = +2.959
+        u =    58.33: r = 0.674963, ln(1/rho) = +1.669e+00, ln I = +6.042, ln eps -> +5.857, Delta_perp so far = +0.01909, xi_perp = +9.806e-01, ln K_in = +2.959
+        u =       50: r = 0.674846, ln(1/rho) = +8.494e-01, ln I = +6.542, ln eps -> +6.707, Delta_perp so far = +0.01926, xi_perp = +9.804e-01, ln K_in = +2.96
+    v_e =     1e+08: crossed 10/10 (skipped 0); ln(1/P) = 25.54; ln eps_end = 25.54; ln S_end = -9.202; max ln I = 25.39; Delta_perp = +1.019827, Delta_rad = +0.263239, xi_perp = +2.9081e-03, xi_rad = +0.7394; d ln Q_in/dv = -2.2182e-17, d ln S/dv = -2.2602e-17 (Ori: -1.2000e-07); end: r floor 0.002 reached (inside all 10 shells) [2 s]
+        u =      200: r = 0.676641, ln(1/rho) = +3.819e+00, ln I = +4.188, ln eps -> +3.819, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        u =    171.4: r = 0.676641, ln(1/rho) = +1.844e+00, ln I = +5.882, ln eps -> +5.663, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        u =      147: r = 0.676641, ln(1/rho) = +1.720e+00, ln I = +7.576, ln eps -> +7.383, Delta_perp so far = +0.01573, xi_perp = +9.839e-01, ln K_in = +2.949
+        ...
+        u =    68.04: r = 0.671942, ln(1/rho) = +1.724e+00, ln I = +23.19, ln eps -> +22.99, Delta_perp so far = +0.02267, xi_perp = +9.770e-01, ln K_in = +2.977
+        u =    58.33: r = 0.671917, ln(1/rho) = +1.703e+00, ln I = +24.89, ln eps -> +24.69, Delta_perp so far = +0.02271, xi_perp = +9.770e-01, ln K_in = +2.977
+        u =       50: r = 0.671801, ln(1/rho) = +8.539e-01, ln I = +25.39, ln eps -> +25.54, Delta_perp so far = +0.02288, xi_perp = +9.768e-01, ln K_in = +2.978
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:90: RuntimeWarning: overflow encountered in scalar power
+  mI = np.where(lu < self.LU[0], u**3 / 3, np.interp(lu, self.LU, self.mI, right=self.Itot))
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:92: RuntimeWarning: overflow encountered in scalar power
+  m_R = 4 * np.pi * R**2 * self.rho_c * s
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:92: RuntimeWarning: invalid value encountered in scalar multiply
+  m_R = 4 * np.pi * R**2 * self.rho_c * s
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:93: RuntimeWarning: overflow encountered in scalar power
+  m_M = mI / self.Itot - s * u**3 / (3 * self.Itot)
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:93: RuntimeWarning: invalid value encountered in scalar multiply
+  m_M = mI / self.Itot - s * u**3 / (3 * self.Itot)
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:95: RuntimeWarning: overflow encountered in scalar power
+  m_RM = 4 * np.pi * R**2 * self.rho_c * sig * s / (3 * M)
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:95: RuntimeWarning: invalid value encountered in scalar multiply
+  m_RM = 4 * np.pi * R**2 * self.rho_c * sig * s / (3 * M)
+<repo>\src\cycle2\T34_tidal.py:135: RuntimeWarning: overflow encountered in scalar power
+  fr = 2 * M / r**2 - 2 * Mr / r
+<repo>\src\cycle2\T34_tidal.py:136: RuntimeWarning: overflow encountered in scalar power
+  frr = -4 * M / r**3 + 4 * Mr / r**2 - 2 * Mrr / r
+<repo>\src\cycle2\T34_tidal.py:117: RuntimeWarning: overflow encountered in scalar power
+  w = np.exp(-(y / self.Y_WIN) ** 2)
+<repo>\src\cycle2\T34_tidal.py:119: RuntimeWarning: overflow encountered in scalar power
+  q = c0 + c1 * y + c2 * y**2
+<repo>\src\cycle2\T34_tidal.py:123: RuntimeWarning: overflow encountered in scalar power
+  wyy = w * (4 * y**2 / self.Y_WIN**4 - 2 / self.Y_WIN**2)
+<repo>\src\cycle2\T34_tidal.py:123: RuntimeWarning: invalid value encountered in scalar multiply
+  wyy = w * (4 * y**2 / self.Y_WIN**4 - 2 / self.Y_WIN**2)
+<repo>\src\cycle2\T34_tidal.py:124: RuntimeWarning: invalid value encountered in scalar multiply
+  return w * q, wy * q + w * qy, wyy * q + 2 * wy * qy + w * qyy

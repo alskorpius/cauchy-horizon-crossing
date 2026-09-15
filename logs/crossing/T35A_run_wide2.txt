@@ -1,0 +1,47 @@
+T35A: multi-shell (continuous outflux) test of the T34 deformation; N in [1, 3, 10, 100]; cases ['wide']
+
+=== wide u-range check (u in [v0, 0.9 v_e], N = 100): contribution of the late, light rays ===
+  [tmp] r0 = 0.676573; residue removed (c0, c1, c2) = [ 1.79841070e-07 -8.49807611e-06  6.56467216e-03]; a = f'''/6 = -2.1687 (T1: -2.158); eps0 = 1.134e-05; |P0 - f_ideal| on |y| < 0.1: 5.7e-06
+
+=== scenario kappa_- = -1e-03, wide u: kappa_- = -1.000e-03, v0 = 50.0, tail 1e-3 p = 11, outflux dm_+ = 0.0001 on u in [v0, 180 v0] ===
+<venv>\site-packages\numpy\polynomial\polynomial.py:754: RuntimeWarning: overflow encountered in multiply
+  c0 = c[-i] + c0 * x
+<repo>\src\cycle2\T35A_multishell.py:90: RuntimeWarning: invalid value encountered in divide
+  step = np.where(dv != 0, fv / dv, 0.0)
+<venv>\site-packages\numpy\polynomial\polynomial.py:752: RuntimeWarning: invalid value encountered in multiply
+  c0 = c[-1] + x * 0
+  !! wide case scen_-1e-03 failed: ValueError('All components of the initial state `y0` must be finite.')
+  [tmp] r0 = 0.676573; residue removed (c0, c1, c2) = [ 1.79841070e-07 -8.49807611e-06  6.56467216e-03]; a = f'''/6 = -2.1687 (T1: -2.158); eps0 = 0.000e+00; |P0 - f_ideal| on |y| < 0.1: 5.7e-06
+
+=== scenario kappa_- = +0e+00, wide u: kappa_- = +0.000e+00, v0 = 50.0, tail 1e-3 p = 11, outflux dm_+ = 0.0001 on u in [v0, 1800 v0] ===
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:90: RuntimeWarning: overflow encountered in scalar power
+  mI = np.where(lu < self.LU[0], u**3 / 3, np.interp(lu, self.LU, self.mI, right=self.Itot))
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:92: RuntimeWarning: overflow encountered in scalar power
+  m_R = 4 * np.pi * R**2 * self.rho_c * s
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:92: RuntimeWarning: invalid value encountered in scalar multiply
+  m_R = 4 * np.pi * R**2 * self.rho_c * s
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:93: RuntimeWarning: overflow encountered in scalar power
+  m_M = mI / self.Itot - s * u**3 / (3 * self.Itot)
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:93: RuntimeWarning: invalid value encountered in scalar multiply
+  m_M = mI / self.Itot - s * u**3 / (3 * self.Itot)
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:95: RuntimeWarning: overflow encountered in scalar power
+  m_RM = 4 * np.pi * R**2 * self.rho_c * sig * s / (3 * M)
+<repo>\src\inhomogeneous_collapse\ltb_bounce.py:95: RuntimeWarning: invalid value encountered in scalar multiply
+  m_RM = 4 * np.pi * R**2 * self.rho_c * sig * s / (3 * M)
+<repo>\src\cycle2\T34_tidal.py:135: RuntimeWarning: overflow encountered in scalar power
+  fr = 2 * M / r**2 - 2 * Mr / r
+<repo>\src\cycle2\T34_tidal.py:136: RuntimeWarning: overflow encountered in scalar power
+  frr = -4 * M / r**3 + 4 * Mr / r**2 - 2 * Mrr / r
+<repo>\src\cycle2\T34_tidal.py:117: RuntimeWarning: overflow encountered in scalar power
+  w = np.exp(-(y / self.Y_WIN) ** 2)
+<repo>\src\cycle2\T34_tidal.py:119: RuntimeWarning: overflow encountered in scalar power
+  q = c0 + c1 * y + c2 * y**2
+<repo>\src\cycle2\T34_tidal.py:123: RuntimeWarning: overflow encountered in scalar power
+  wyy = w * (4 * y**2 / self.Y_WIN**4 - 2 / self.Y_WIN**2)
+<repo>\src\cycle2\T34_tidal.py:123: RuntimeWarning: invalid value encountered in scalar multiply
+  wyy = w * (4 * y**2 / self.Y_WIN**4 - 2 / self.Y_WIN**2)
+<repo>\src\cycle2\T34_tidal.py:124: RuntimeWarning: invalid value encountered in scalar multiply
+  return w * q, wy * q + w * qy, wyy * q + 2 * wy * qy + w * qyy
+  N = 100: u in [50, 9e+04], heaviest weight 0.3727 (u = 53.93), launch radius R0 = 1.330; table to v = 6.09e+06; min dR between adjacent rays = +3.81e-10 (no crossing); chain 37.5 s
+    v_e =     1e+05: crossed 100/100 (skipped 0); ln(1/P) = 6.435; ln eps_end = 6.435; ln S_end = -9.203; max ln I = 5.84; Delta_perp = +1.013535, Delta_rad = +0.263681, xi_perp = +4.5121e-03, xi_rad = +0.7389; d ln Q_in/dv = +0.0000e+00, d ln S/dv = -1.7347e-18 (Ori: -1.2000e-04); end: r floor 0.002 reached (inside all 100 shells) [2 s]
+-> <repo>\src\cycle2\results (47 s)
