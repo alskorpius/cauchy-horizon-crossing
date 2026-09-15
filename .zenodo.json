@@ -1,0 +1,39 @@
+{
+  "title": "cauchy-horizon-crossing: the tidal cost of crossing the Cauchy horizon of a regular black hole, and the passable window",
+  "description": "<p>Reproduction package for the note <em>Crossing the inner horizon of a regular black hole: the cost of the Cauchy horizon and the passable window</em>. Contains the tidal-tensor integration, the shell-impulse thresholds, the convergence study in the number of shells, the Reissner&ndash;Nordstr&ouml;m control run, and the figure of the window. Every number is reproduced by one command from a clean clone; the map from each number to its script and result file is in <code>docs/reproducibility.md</code>.</p><p>A body falling into a regular black hole and crossing the inner (Cauchy) horizon accumulates a finite, epoch-independent deformation &mdash; Ori's weak singularity, reproduced here for an inner-extremal profile &mdash; but receives a transverse velocity kick at the outgoing shell that grows without bound with the entry time. The crossing is therefore survivable only inside a window measured in milliseconds for stellar-mass holes and in years to millennia for supermassive ones.</p><p><strong>Scope, stated here and not only in the repository:</strong> convergence in the number of shells is established for detuned profiles and for Reissner&ndash;Nordstr&ouml;m, where replacing one shell by up to 1000 changes the deformation by at most 2&times;10<sup>-4</sup>. For the exact triple root it is <em>not</em> formally established: the observed variation is 2.5&times;10<sup>-3</sup> to 7&times;10<sup>-3</sup> and is not monotone in the number of shells, and the runs that would settle it were aborted. The triple-root evidence rests on at most 100 shells. The likely cause is bookkeeping rather than physics, and the argument for that is given in the repository.</p><p>Licensing is split: code in <code>src/</code> and <code>figures/</code> is MIT; data in <code>data/</code>, raw logs in <code>logs/</code> and the generated figure images are CC-BY-4.0. See <code>LICENSE</code>.</p><p>The calculations were carried out with automated agents under the author's direction, with an independent cross-audit between two separate research projects. The author is responsible for the results.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.1",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Popenkov, Oleh",
+      "affiliation": "Independent researcher, Kelowna, BC, Canada",
+      "orcid": "0009-0008-9894-2982"
+    }
+  ],
+  "keywords": [
+    "general relativity",
+    "Cauchy horizon",
+    "inner horizon",
+    "mass inflation",
+    "tidal forces",
+    "regular black holes",
+    "weak null singularity",
+    "reproducible research",
+    "gr-qc"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/alskorpius/cauchy-horizon-crossing",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22780231",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}
