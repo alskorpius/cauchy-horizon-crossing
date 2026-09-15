@@ -1,5 +1,7 @@
 # cauchy-horizon-crossing
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22780347.svg)](https://doi.org/10.5281/zenodo.22780347)
+
 Code and data for the note **"Crossing the inner horizon of a regular black hole: the cost of the Cauchy horizon and the passable window"**.
 
 A body that falls into a regular black hole and crosses the inner (Cauchy) horizon accumulates a *finite, epoch-independent* deformation — Ori's weak singularity, reproduced here for an inner-extremal regular profile — but receives a transverse velocity kick at the outgoing shell that grows without bound with the entry time, so the crossing is survivable only inside a window measured in milliseconds for stellar-mass holes and in years to millennia for supermassive ones.
@@ -74,6 +76,13 @@ Test body without back-reaction; classical treatment throughout, with the Planck
 
 Oleh Popenkov, *Crossing the inner horizon of a regular black hole: the cost of the Cauchy horizon and the passable window* (2026).
 Code and data: https://github.com/alskorpius/cauchy-horizon-crossing — see [`CITATION.cff`](CITATION.cff).
+
+To cite this repository, use the archived release rather than the URL — see [`CITATION.cff`](CITATION.cff):
+
+| | DOI |
+|---|---|
+| all versions (resolves to the latest) | [10.5281/zenodo.22780347](https://doi.org/10.5281/zenodo.22780347) |
+| this version, `v1.0.1` | [10.5281/zenodo.22780348](https://doi.org/10.5281/zenodo.22780348) |
 
 ORCID: [0009-0008-9894-2982](https://orcid.org/0009-0008-9894-2982)
 
